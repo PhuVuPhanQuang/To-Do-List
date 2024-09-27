@@ -61,6 +61,8 @@ ul li{
     user-select: none;
     cursor: pointer;
     position: relative;
+    word-wrap: break-word;
+    padding-right: 40px;
 }
 ul li::before{
     content: '';
